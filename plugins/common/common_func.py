@@ -1,3 +1,3 @@
 def get_sftp():
-    print('sftp 작업을 싲갛바니다.')
+    print('sftp 작업을 시작합니다.')
     
