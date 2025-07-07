@@ -4,6 +4,7 @@ import pendulum
 
 from airflow.providers.standard.operators.bash import BashOperator
 
+
 with DAG(
     dag_id="dags_bash_with_template",
     schedule="10 0 * * *",
