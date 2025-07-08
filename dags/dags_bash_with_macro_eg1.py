@@ -18,3 +18,4 @@ with DAG(
         },
         bash_command='echo "START_DATE: $START_DATE" && "END_DATE: $END_DATE"'
     )
+    
