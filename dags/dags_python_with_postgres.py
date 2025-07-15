@@ -34,4 +34,5 @@ with DAG(
         python_callable=insrt_postgres,
         op_args=['172.28.0.3', '5433', 'shlee', 'shlee','shlee']
     )            
+    
     insrt_postgres
