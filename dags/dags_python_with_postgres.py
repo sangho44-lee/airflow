@@ -35,6 +35,5 @@ with DAG(
         op_args=['172.28.0.3', '5433', 'shlee', 'shlee','shlee']
     )
 
-# DAG 객체 등록
-dag = dag
+task1
 
