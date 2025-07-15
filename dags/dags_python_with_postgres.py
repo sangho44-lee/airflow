@@ -1,7 +1,6 @@
 from airflow import DAG
-import datetime
 import pendulum
-from airflow.operators.python import PythonOperator  # type: ignore   
+from airflow.operators.python import PythonOperator
 
 with DAG(
     dag_id="dags_python_with_postgres",
@@ -35,5 +34,4 @@ with DAG(
         python_callable=insrt_postgres,
         op_args=['172.28.0.3', '5433', 'shlee', 'shlee','shlee']
     )            
-    
     insrt_postgres
