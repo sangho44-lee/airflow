@@ -32,7 +32,7 @@ with DAG(
     task1 = PythonOperator(
         task_id='insrt_postgres',
         python_callable=insrt_postgres,
-        op_args=['172.28.0.3', '5433', 'shlee', 'shlee','shlee']
+        op_args=['172.28.0.3', '5435', 'shlee', 'shlee','shlee']
     )
 
     task1
