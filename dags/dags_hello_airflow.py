@@ -10,7 +10,7 @@ def hello_airflow():
 # DAG 정의
 with DAG(
     dag_id='dags_hello_airflow',
-    schedule_interval='@daily',  # 매일 1회 실행
+    schedule='@daily',  # 매일 1회 실행
     start_date=pendulum.datetime(2025, 7, 1, tz="Asia/Seoul"),
     catchup=False,
     tags=['example'],
